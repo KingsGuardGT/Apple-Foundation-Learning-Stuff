@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83B674562C2BF84F000F19FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B674552C2BF84F000F19FE /* AppDelegate.swift */; };
+		83B674582C2BF84F000F19FE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83B674572C2BF84F000F19FE /* GameScene.sks */; };
+		83B6745A2C2BF84F000F19FE /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83B674592C2BF84F000F19FE /* Actions.sks */; };
+		83B6745C2C2BF84F000F19FE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B6745B2C2BF84F000F19FE /* GameScene.swift */; };
+		83B6745E2C2BF84F000F19FE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B6745D2C2BF84F000F19FE /* GameViewController.swift */; };
+		83B674612C2BF850000F19FE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 83B674602C2BF850000F19FE /* Base */; };
+		83B674632C2BF851000F19FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83B674622C2BF851000F19FE /* Assets.xcassets */; };
+		83B674662C2BF851000F19FE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 83B674652C2BF851000F19FE /* Base */; };
+		83C33DA32C2C09AF004B0925 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C33DA22C2C09AF004B0925 /* MainMenuViewController.swift */; };
+		83C33DA52C2C09CB004B0925 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C33DA42C2C09CB004B0925 /* SettingViewController.swift */; };
+		83C33DE72C32906D004B0925 /* bgmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83C33DE62C32906D004B0925 /* bgmusic.mp3 */; };
+		83C33DEA2C32F76A004B0925 /* vid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 83C33DE92C32F76A004B0925 /* vid.mp4 */; };
+		83C33DEC2C32F794004B0925 /* imThirteen.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 83C33DEB2C32F794004B0925 /* imThirteen.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		83B674522C2BF84F000F19FE /* Space Adventure of Lennox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Adventure of Lennox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83B674552C2BF84F000F19FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83B674572C2BF84F000F19FE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		83B674592C2BF84F000F19FE /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		83B6745B2C2BF84F000F19FE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		83B6745D2C2BF84F000F19FE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		83B674602C2BF850000F19FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83B674622C2BF851000F19FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83B674652C2BF851000F19FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83C33DA22C2C09AF004B0925 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		83C33DA42C2C09CB004B0925 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		83C33DE62C32906D004B0925 /* bgmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgmusic.mp3; sourceTree = "<group>"; };
+		83C33DE92C32F76A004B0925 /* vid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vid.mp4; sourceTree = "<group>"; };
+		83C33DEB2C32F794004B0925 /* imThirteen.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = imThirteen.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83B6744F2C2BF84F000F19FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83B674492C2BF84F000F19FE = {
+			isa = PBXGroup;
+			children = (
+				83B674542C2BF84F000F19FE /* Space Adventure of Lennox */,
+				83B674532C2BF84F000F19FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83B674532C2BF84F000F19FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83B674522C2BF84F000F19FE /* Space Adventure of Lennox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83B674542C2BF84F000F19FE /* Space Adventure of Lennox */ = {
+			isa = PBXGroup;
+			children = (
+				83B674552C2BF84F000F19FE /* AppDelegate.swift */,
+				83B674572C2BF84F000F19FE /* GameScene.sks */,
+				83B674592C2BF84F000F19FE /* Actions.sks */,
+				83B6745B2C2BF84F000F19FE /* GameScene.swift */,
+				83B6745D2C2BF84F000F19FE /* GameViewController.swift */,
+				83B6745F2C2BF850000F19FE /* Main.storyboard */,
+				83B674622C2BF851000F19FE /* Assets.xcassets */,
+				83B674642C2BF851000F19FE /* LaunchScreen.storyboard */,
+				83C33DA22C2C09AF004B0925 /* MainMenuViewController.swift */,
+				83C33DA42C2C09CB004B0925 /* SettingViewController.swift */,
+				83C33DE62C32906D004B0925 /* bgmusic.mp3 */,
+				83C33DE92C32F76A004B0925 /* vid.mp4 */,
+				83C33DEB2C32F794004B0925 /* imThirteen.mp4 */,
+			);
+			path = "Space Adventure of Lennox";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83B674512C2BF84F000F19FE /* Space Adventure of Lennox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83B674692C2BF851000F19FE /* Build configuration list for PBXNativeTarget "Space Adventure of Lennox" */;
+			buildPhases = (
+				83B6744E2C2BF84F000F19FE /* Sources */,
+				83B6744F2C2BF84F000F19FE /* Frameworks */,
+				83B674502C2BF84F000F19FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Space Adventure of Lennox";
+			productName = "Space Adventure of Lennox";
+			productReference = 83B674522C2BF84F000F19FE /* Space Adventure of Lennox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83B6744A2C2BF84F000F19FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					83B674512C2BF84F000F19FE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 83B6744D2C2BF84F000F19FE /* Build configuration list for PBXProject "Space Adventure of Lennox" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83B674492C2BF84F000F19FE;
+			productRefGroup = 83B674532C2BF84F000F19FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83B674512C2BF84F000F19FE /* Space Adventure of Lennox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83B674502C2BF84F000F19FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B674582C2BF84F000F19FE /* GameScene.sks in Resources */,
+				83B674612C2BF850000F19FE /* Base in Resources */,
+				83B674632C2BF851000F19FE /* Assets.xcassets in Resources */,
+				83B6745A2C2BF84F000F19FE /* Actions.sks in Resources */,
+				83B674662C2BF851000F19FE /* Base in Resources */,
+				83C33DEA2C32F76A004B0925 /* vid.mp4 in Resources */,
+				83C33DE72C32906D004B0925 /* bgmusic.mp3 in Resources */,
+				83C33DEC2C32F794004B0925 /* imThirteen.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83B6744E2C2BF84F000F19FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83C33DA52C2C09CB004B0925 /* SettingViewController.swift in Sources */,
+				83C33DA32C2C09AF004B0925 /* MainMenuViewController.swift in Sources */,
+				83B6745C2C2BF84F000F19FE /* GameScene.swift in Sources */,
+				83B6745E2C2BF84F000F19FE /* GameViewController.swift in Sources */,
+				83B674562C2BF84F000F19FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83B6745F2C2BF850000F19FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83B674602C2BF850000F19FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83B674642C2BF851000F19FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83B674652C2BF851000F19FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83B674672C2BF851000F19FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83B674682C2BF851000F19FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83B6746A2C2BF851000F19FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9D878LKL7D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KingsGuardGT.Space-Adventure-of-Lennox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83B6746B2C2BF851000F19FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9D878LKL7D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KingsGuardGT.Space-Adventure-of-Lennox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83B6744D2C2BF84F000F19FE /* Build configuration list for PBXProject "Space Adventure of Lennox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B674672C2BF851000F19FE /* Debug */,
+				83B674682C2BF851000F19FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83B674692C2BF851000F19FE /* Build configuration list for PBXNativeTarget "Space Adventure of Lennox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83B6746A2C2BF851000F19FE /* Debug */,
+				83B6746B2C2BF851000F19FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83B6744A2C2BF84F000F19FE /* Project object */;
+}
